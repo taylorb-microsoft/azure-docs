@@ -123,7 +123,7 @@ Create a local file named `iis.json` and copy the following text. This file tell
     "containers": [
       {
         "name": "iis",
-        "image": "nanoserver/iis",
+        "image": "microsoft/iis:nanoserver",
         "ports": [
           {
           "containerPort": 80
